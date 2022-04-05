@@ -43,15 +43,15 @@
 }
 
 .coin-price {
-    width: 110px;
+    width: 100%;
 }
 
 .coin-volume {
-    width: 230px;
+    width: 100%;
 }
 
 .coin-marketcap {
-    width: 155px;
+    width: 100%;
 }
 
 .coin-percent {
@@ -60,9 +60,41 @@
 }
 
 .reds {
-    color: red;
+    color: rgb(202, 0, 0);
 }
 
 .grens {
-    color: green;
+    color: rgb(5, 116, 5);
+}
+
+@media screen and (max-width: 940px) {
+    .coin-row {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 700px;
+        height: 90px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .coin-row {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 400px;
+        height: 90px;
+        margin-bottom: 12px;
+    }
+
+    .coin-container {
+        height: 135px;
+        width: 60%;
+        margin: auto;
+        border-bottom: 1px solid #fff;
+    }
+
+    .coin-data {
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }

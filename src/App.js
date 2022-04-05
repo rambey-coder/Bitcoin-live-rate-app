@@ -14,7 +14,7 @@ function App() {
       setCoins(res.data);
     })
 
-    .catch(err => console.log(err))
+    .catch(err => alert('error in loading content'))
   },[]);
 
   const handleChange = e => {
