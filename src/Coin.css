@@ -97,4 +97,9 @@
         flex-wrap: wrap;
         text-align: center;
     }
+
+    .coin {
+        justify-content: center;
+        padding-right: 0;
+    }
 }
