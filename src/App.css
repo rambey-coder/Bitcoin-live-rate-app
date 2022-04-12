@@ -5,16 +5,16 @@
   margin: 0;
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
-  background-color: #121212;
-  color: #fff;
+  background-color: #101020;
+  /* color: #fff; */
 }
 
 .coin-app {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   margin-top: 64px;
-  color: #fff;
+  color: #f0f0f1;
 }
 
 .coin-search {
@@ -28,16 +28,31 @@
 .coin-text {
   margin-bottom: 32px;
   text-align: center;
+  color: #f0f0f1;
 }
 
 .coin-input {
   padding-left: 16px;
   width: 300px;
-  height: 50px;
+  height: 40px;
   border-radius: 4px;
   border: 0;
-  background-color: #b3b3b3;
+  background-color: #ffffff;
   color: #121212;
   transition: ease;
 }
 
+.general-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 999px) {
+  .general-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
