@@ -25,7 +25,7 @@ function App() {
     coin.name.toLowerCase().includes(search.toLocaleLowerCase())
     )
 
- window.setInterval('refresh()', 10000);
+
 
   return (
     <div className="coin-app">
